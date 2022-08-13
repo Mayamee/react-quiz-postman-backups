@@ -81,7 +81,7 @@
 					"response": []
 				},
 				{
-					"name": "LoginUser Copy",
+					"name": "LoginUser",
 					"event": [
 						{
 							"listen": "test",
