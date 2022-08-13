@@ -82,6 +82,20 @@
 				},
 				{
 					"name": "LogoutUser",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "8c1036e8-83f6-4e25-b33d-4f0863b7712f",
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
 					"id": "7f8d744d-c9f0-4233-940f-72ceea010101",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
