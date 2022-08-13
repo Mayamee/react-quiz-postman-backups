@@ -73,7 +73,7 @@
 							"script": {
 								"id": "d0c93712-6792-4ba2-b6ef-09a73c77938e",
 								"exec": [
-									""
+									"a"
 								],
 								"type": "text/javascript"
 							}
