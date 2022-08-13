@@ -203,6 +203,20 @@
 				},
 				{
 					"name": "AddQuiz",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "d86ce416-242d-40bf-91ca-9ad857693d54",
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
 					"id": "b1706f0b-a3b0-4d7a-a1e1-8b5bd1adbb0f",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
