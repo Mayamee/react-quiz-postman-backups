@@ -110,7 +110,7 @@
 									"var jsonData = pm.response.json()\r",
 									"// создает тест\r",
 									"pm.test(\"Проверка 1 элемента массива body\",()=> {\r",
-									"    pm.expect(jsonData.data[0].id).to.equal(\"62f7900d69ac22ffe14c75ccc\")\r",
+									"    // pm.expect(jsonData.data[0].id).to.equal(\"\")\r",
 									"})"
 								],
 								"type": "text/javascript"
