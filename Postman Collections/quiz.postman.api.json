@@ -10,6 +10,20 @@
 			"item": [
 				{
 					"name": "RegisterUser",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "186f2637-9634-4bc5-aea6-ee2f4aa24dcd",
+								"exec": [
+									"pm.test(\"Successful POST request\", function () {\r",
+									"    pm.expect(pm.response.code).to.be.oneOf([201, 202]);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
 					"id": "567eccb3-22ab-45b1-a6eb-52b2062541d4",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
