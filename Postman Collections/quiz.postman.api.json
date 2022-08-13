@@ -60,42 +60,6 @@
 							}
 						}
 					],
-					"id": "8d5209a5-543f-4a15-a5a7-f549bd213d34",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
-					"request": {
-						"method": "POST",
-						"header": [],
-						"body": {
-							"mode": "raw",
-							"raw": "{\r\n    \"email\": \"{{test_mail}}\",\r\n    \"password\": \"{{test_password}}\"\r\n}",
-							"options": {
-								"raw": {
-									"language": "json"
-								}
-							}
-						},
-						"url": "{{api_url}}/auth/login"
-					},
-					"response": []
-				},
-				{
-					"name": "LoginUser",
-					"event": [
-						{
-							"listen": "test",
-							"script": {
-								"id": "1cae15da-8159-472e-983c-8fc9f73056c8",
-								"exec": [
-									"pm.test(\"Status code is 200\", function () {\r",
-									"    pm.response.to.have.status(200);\r",
-									"});"
-								],
-								"type": "text/javascript"
-							}
-						}
-					],
 					"id": "9a3f2186-8359-4e30-bef3-0ccdeeae63ab",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
@@ -277,7 +241,44 @@
 		},
 		{
 			"name": "Dubles",
-			"item": [],
+			"item": [
+				{
+					"name": "LoginUser",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "1cae15da-8159-472e-983c-8fc9f73056c8",
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"id": "8d5209a5-543f-4a15-a5a7-f549bd213d34",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\": \"{{test_mail}}\",\r\n    \"password\": \"{{test_password}}\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{api_url}}/auth/login"
+					},
+					"response": []
+				}
+			],
 			"id": "5ee3df8d-9b7b-425f-bf06-9f3a089a63b3"
 		}
 	]
