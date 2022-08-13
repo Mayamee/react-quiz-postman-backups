@@ -107,11 +107,11 @@
 									"pm.test(\"Status code is 200\", function () {\r",
 									"    pm.response.to.have.status(200);\r",
 									"});\r",
-									"var jsonData = pm.response.json()\r",
+									"// var jsonData = pm.response.json()\r",
 									"// создает тест\r",
-									"pm.test(\"Проверка 1 элемента массива body\",()=> {\r",
+									"// pm.test(\"Проверка 1 элемента массива body\",()=> {\r",
 									"    // pm.expect(jsonData.data[0].id).to.equal(\"\")\r",
-									"})"
+									"// })"
 								],
 								"type": "text/javascript"
 							}
