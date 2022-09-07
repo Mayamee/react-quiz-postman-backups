@@ -221,6 +221,12 @@
 						"disableBodyPruning": true
 					},
 					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzMThhOGQwNzliZWUzNWY2NTc5MGVjNiIsImVtYWlsIjoicG9ueWFzaGNhdDIyOEBnbWFpbC5jb20iLCJhY3RpdmF0ZWQiOmZhbHNlLCJpYXQiOjE2NjI1NjIyMjIsImV4cCI6MTY2MjU2MjgyMn0.xWcJkhVMhW_ZfpS5uaq3Rtx-UT9h1BOzUAcyHpvFv4E"
+							}
+						},
 						"method": "POST",
 						"header": [],
 						"body": {
