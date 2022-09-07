@@ -243,6 +243,12 @@
 						"disableBodyPruning": true
 					},
 					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzMThiMGE0MzRhMjA1ZTMzNGM5ZWU2NyIsImVtYWlsIjoicG9ueWFzaGNhdDIyOEBnbWFpbC5jb20iLCJhY3RpdmF0ZWQiOmZhbHNlLCJpYXQiOjE2NjI1NjI5MDgsImV4cCI6MTY2MjU2MzUwOH0.3yFJcFf9HftYIzgDmCqqlQr1UM6VXnyj8wDfz97Z4h4"
+							}
+						},
 						"method": "GET",
 						"header": [],
 						"url": "{{api_url}}/quiz/my"
