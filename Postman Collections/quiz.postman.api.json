@@ -237,7 +237,7 @@
 					"response": []
 				},
 				{
-					"name": "getMyQuizes",
+					"name": "GetMyQuizes",
 					"id": "250ec28e-2b7f-4ff1-b752-44aa78b428f0",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
