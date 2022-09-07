@@ -245,7 +245,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": ""
+						"url": "{{api_url}}/quiz/my"
 					},
 					"response": []
 				}
