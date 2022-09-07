@@ -235,6 +235,19 @@
 						"url": "{{api_url}}/quiz"
 					},
 					"response": []
+				},
+				{
+					"name": "getMyQuizes",
+					"id": "250ec28e-2b7f-4ff1-b752-44aa78b428f0",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": ""
+					},
+					"response": []
 				}
 			],
 			"id": "b724158a-8cb3-4867-805e-86a37030cb00"
